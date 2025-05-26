@@ -1,0 +1,598 @@
+body{
+    background: #f2f6fa;
+    background: linear-gradient(120deg, rgb(164, 189, 212) 50%, rgb(80, 120, 240) 60%, rgb(61, 200, 242) 100%);
+    margin: 0;
+}
+
+#logo{
+    width: 4.5rem;  
+}
+
+.titulo{
+    flex:1 1 auto;
+    display: flex;
+    padding-left: 2rem;
+    font-family: 'Roboto';
+    font-size: 0.6rem;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0;
+    padding: 0.5rem 2rem;
+}
+
+header{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px ridge rgba(229, 228, 237, 0.2);
+    border-radius: 1px;
+}
+
+nav,nav ul,nav a{
+    display: flex;
+    text-decoration: none;
+    gap: 1.5rem;
+    font-size: 1rem;
+    color: black;
+    font-family: 'Arial';
+    font-weight: 700;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 1.5rem;
+    padding-right: 4rem;
+}
+
+#home:hover,#paseos:hover{
+    background-color: rgba(56, 1, 56, 0.2);
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    /*background:
+    linear-gradient(105deg, rgba(3, 56, 120, 0.25) 39%, rgb(51 56 57 / 10%) 96%) */
+    background-image: linear-gradient(180deg, rgb(119 0 255 / 39%), rgb(0 212 255 / 100%));
+}
+
+#home:active,#paseos:active{
+    color:white;
+    background-color: rgb(2, 45, 62);
+}
+
+
+nav{
+    flex: 1 1 auto; 
+}
+
+
+.cta{
+    background-color: #531fa0;
+    border: 2px solid ;
+    border-radius: 3px;
+    box-shadow: 7px 2px 11px 0px #531FA0;
+
+}
+
+.cta a{
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+
+.cta :hover{
+    color: #00e5ff;
+}
+
+
+ul li{
+    padding: 1rem 1.25rem;
+}
+
+
+.videoPresentacion{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+
+.videoPresentacion iframe{
+    border: 1px ridge rgb(255, 253, 253,0.9);
+    border-radius: 10px;
+}
+
+
+
+main p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Arial';
+}
+
+html{
+    padding: 0rem 0rem;
+    /*border:5px solid black;*/
+    scroll-behavior: smooth;
+}
+
+/*----------------------------------------------------*/
+
+main section img{
+    width: 20rem;
+    opacity: 0.85;
+    display: flex;
+}
+
+
+header img{
+    width: 500px;
+}
+
+
+header ul,footer ul{
+    list-style: none;  
+}
+
+.cajita{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+form{ 
+    font-family: 'Montserrat';
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: stretch;
+    gap: 3px;
+    margin-bottom: 3rem;
+}
+
+.datos{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    gap:2rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.mensajeyboton{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+form > div{
+    flex: 1 1 auto;
+}
+
+input,textarea{
+    border-radius: 5px;
+    border: 1.75px solid;
+}
+
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label{
+    text-align: left;
+}
+
+.mensaje{
+    display: block;
+}
+
+.mapas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;    
+    flex-wrap: wrap;
+    height: 35rem;
+}
+
+.mapas iframe{
+    height: 25rem;
+    border: 2px solid rgba(0, 0, 255, 0.2);
+    border-radius: 10px ;
+}
+
+
+footer{
+    color: grey;
+    font-size: 1rem;
+    background: #021f3c;
+    background: linear-gradient(165deg, rgb(6, 27, 49) 0%, rgba(211, 219, 242, 1) 57%, rgba
+    (144, 217, 240, 1) 100%);
+    p{
+        text-align: center;
+    }; 
+}
+
+
+footer a{  
+    text-decoration: none;
+    color: grey;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer p,footer h3,footer a {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+
+
+.itemProductos{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    justify-content: center;
+    padding: 0 10%;
+    margin-bottom: 2rem;
+}
+
+.productos{
+    padding: 0 1rem;
+}
+
+
+.producto{
+    background-color:#99D9ED;
+    width: 16rem;
+    height: 22rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.productoimgdesc{
+    flex: 0 0 16rem;
+    border: 1px ridge rgba(229, 228, 237, 0.2);
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #99D9ED;
+
+    transition: transform 0.4s ease-in-out;
+}
+
+.productoimgdesc:hover{
+    transform: scale(1.05);
+}
+
+.descripcion{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 1rem; 
+}
+
+
+.precioproducto{
+  background-color: #cee8ff;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}
+
+.precioproducto p{
+    font-size: 1.2rem;
+}
+
+
+.productoimgdesc img{
+    height: 20rem;
+    object-fit: cover;
+}
+
+.productoimgdesc .descripcion  >  p{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    color: rgb(0, 0, 0);
+}
+
+.productoimgdesc h3{
+    padding-left: 1rem;
+    padding: 0 1rem;
+}
+
+.precioproducto{
+    padding: 0 1rem;
+    display: block;
+    color: rgb(10, 1, 1);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+.item {
+    margin: 5px;
+    border: 2px solid black;
+   
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    background-color: rgba(118, 216, 233, 0.5);
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    align-items: center;
+   
+}
+
+.formulario input,textarea,button{
+    padding: 5px;
+}
+
+button{
+    width: 350px;
+    height: 35px;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    background-color: rgb(208, 190, 233,0.8);
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid;
+}
+
+.mensaje{
+    display: inline;
+}
+
+.resenias{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(14rem,1fr));
+    gap: 1rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+.card{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+    background-color: #531fa0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #A4BDD4;
+    transition: transform 0.3s ease-out;
+
+    color: #8da8c0;
+}
+
+.card span,.card i{
+    padding-left: 0.2rem;
+}
+
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card-content p{
+    font-style: italic;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.card-nombre{
+    font-weight: 500;
+    display: inline-block;
+}
+
+.seccionResenia h2{
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+    color:#CEE8FF;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    letter-spacing: 0.5px;
+}
+
+
+
+main section ul li{
+    display: inline;
+}
+
+ 
+#bottonhome {
+    padding-bottom: 0.5rem;
+}
+
+#bottonhome a{
+    color: #5078f0a6;
+}
+
+.redes{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0 5px;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.redes li{
+    font-weight: 600;
+}
+
+.redesfull h3{
+    color: aqua;
+    margin: 0.5rem 0 0 0;
+    font-weight: 450;
+}
+
+.redesfull{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+p#rights{
+    color: white;
+    font-size: small;
+    margin: 0.25rem 0;
+}
+
+.derechos{
+    background-color: #000000;
+    margin-bottom: 0;
+    padding: 0.15rem;
+}
+
+
+/*
+Media Queries
+*/
+
+@media only screen and (max-width: 768px){
+    
+    #inicio,footer,.formulario {
+        font-size: 0.75rem ;
+    }
+
+    header{
+        border: none;
+    }
+
+    header,nav a{
+        font-size: 0.9rem;
+    }
+
+    nav ul{
+        padding: 0.5rem 1rem;
+    }
+
+    nav ul li{
+        padding: 0.75rem 0.5rem;
+    }
+
+    nav{
+        justify-content: center;
+        background-color: #A4BDD4;
+        border: none;
+    }
+
+    .seccionResenia h2{
+        font-size: 1.25rem;
+    }
+
+    .titulo{
+        border-bottom: 3px double #4d83f02d;
+        border-top: 2px solid #4d83f02a;
+        
+    }
+
+    .videoPresentacion {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .videoPresentacion iframe{
+    height: 80%;
+  }
+
+    .itemProductos p , .itemProductos .descripcion p{
+        font-size: 0.8rem;
+    }
+
+    .itemProductos img{
+        max-height: 9rem;
+        border-radius: 4px;
+    }
+
+
+    .productoimgdesc{
+        border-radius: 10px;
+        border: none;
+    }
+
+    .resenias{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .formulario{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0 2%;
+
+            & p{
+                margin-left: 0.5rem;
+            }
+
+            & .mensajeyboton{
+                padding-left: 0px;
+                padding-right: 0px;
+
+                & label{
+                    margin-left: 5px;
+                }
+
+                &  #mensaje{
+                    width: 97%;
+                    margin-left: 5px;
+                }
+
+                & button{
+                    width: 50%;
+                    display: block;
+                    margin: 5px auto;
+                }
+            }
+
+            & form .datos > .cajita{
+                gap: 1rem;
+            }
+
+            & form .datos :nth-child(3){
+                gap: 2.5rem;
+            }
+    }
+
+}
+
