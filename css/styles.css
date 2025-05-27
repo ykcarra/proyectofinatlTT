@@ -209,7 +209,7 @@ label{
 
 
 footer{
-    color: gray;
+    color: rgb(0, 0, 0);
     font-size: 1rem;
     background: #021f3c;
     background: linear-gradient(165deg, rgb(6, 27, 49) 0%, rgba(211, 219, 242, 1) 57%, rgba
@@ -222,7 +222,7 @@ footer{
 
 footer a{  
     text-decoration: none;
-    color: gray;
+    color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight: 500;
 }
