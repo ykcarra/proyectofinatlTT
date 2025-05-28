@@ -518,20 +518,20 @@ Media Queries
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
         border: 1px solid rgba(255, 254, 254, 0.548);
-        border-radius: 15px;
+        border-radius: 12px;
         box-shadow: 2px 1px 1px 1px rgba(1, 3, 22, 0.474);
         background-color: #40b9f171;
     }
 
     nav ul li{
-        padding: 0.75rem 0.5rem;
+        padding: 0.7rem 1.6rem;
     }
 
     nav{
         justify-content: center;
         background-color: #ffffff;
         border: none;
-        padding-bottom: 1rem;
+        padding-bottom: 0.25rem;
     }
 
     .seccionResenia h2{
@@ -541,6 +541,7 @@ Media Queries
 
     .titulo{
         border-top: 2px solid #4d83f02a;
+        padding: 0.15rem 2rem ;
         
     }
 
