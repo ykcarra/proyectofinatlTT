@@ -526,8 +526,15 @@ Media Queries
 
     nav{
         justify-content: center;
-        background-color: #ffffff;
-        border-top: 5px solid #3EC1F2;
+        background-color: #F7F7F7;
+
+        border-top: 3px double #3EC1F2;
+
+            &   li#paseos{
+                border-right: 1px solid #3EC1F2;
+                border-left: 1px solid #3EC1F2;
+                
+            }
     }
 
     .seccionResenia h2{
