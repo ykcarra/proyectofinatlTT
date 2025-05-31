@@ -336,6 +336,43 @@ footer p,footer h3,footer a {
    
 }
 
+.formas-de-pago{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: #ffffff;
+    gap: 2px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    border-top: 1px solid rgba(173, 216, 230, 0.115);
+
+    >div{
+        background-color: #0e023c6f;
+        padding: 1rem;
+        border-radius: 12px;
+        margin-bottom:1.5rem;
+        margin-top: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    & div li{
+        margin-top: 0.5rem;
+    }
+
+    & ul {
+        list-style-type:disc;
+    }
+
+    & div ul li{
+        display: list-item;
+        margin: 0   0;
+        padding: 3px 3px;
+        
+    }
+}
+
 .formulario{
     display: flex;
     flex-wrap: wrap;
@@ -571,6 +608,10 @@ Media Queries
     .productoimgdesc{
         border-radius: 10px;
         border: none;
+    }
+
+    .formas-de-pago{
+        font-size: 0.9rem;
     }
 
     .resenias{
