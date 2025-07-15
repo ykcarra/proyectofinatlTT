@@ -662,7 +662,9 @@ Media Queries
     }
 
     #carrito{
-        font-size: 0.75rem;
+        font-size: 1rem;
+        margin: 0 10%;
+        width: 75%;
         h2{
             font-size: 1rem;
         }
@@ -674,11 +676,11 @@ Media Queries
             font-size: 0.75rem;
         }
         & .cantidad-carrito,.total-carrito{
-            font-size: 0.75rem;
+            font-size: 1rem;
         }
+        
     }
-
-
+    
 }
 
 .btn-comprar{
