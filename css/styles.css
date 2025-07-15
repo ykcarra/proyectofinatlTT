@@ -661,6 +661,24 @@ Media Queries
             }
     }
 
+    #carrito{
+        font-size: 0.75rem;
+        h2{
+            font-size: 1rem;
+        }
+
+        & .btn-comprar{
+            font-size: 0.75rem;
+        }
+        & .btn-cantidad{
+            font-size: 0.75rem;
+        }
+        & .cantidad-carrito,.total-carrito{
+            font-size: 0.75rem;
+        }
+    }
+
+
 }
 
 .btn-comprar{
