@@ -47,7 +47,8 @@ nav ul{
     padding-right: 4rem;
 }
 
-#home:hover,#paseos:hover{
+
+#home:hover,#paseos:hover,#carro:hover{
     background-color: rgba(56, 1, 56, 0.2);
     border-radius: 5px;
     color:rgb(255, 255, 255);
@@ -734,4 +735,8 @@ Media Queries
     & .btn-comprar{
         width: 50%;
     }
+}
+
+.carritoypago{
+    display: flex;
 }
