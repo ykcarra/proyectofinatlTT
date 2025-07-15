@@ -401,6 +401,10 @@ button{
     border: 1px solid;
 }
 
+button :active{
+    color: white;
+}
+
 .mensaje{
     display: inline;
 }
@@ -658,3 +662,76 @@ Media Queries
 
 }
 
+.btn-comprar{
+    margin-bottom: 1.1rem;
+    width: 75%;
+}
+
+.btn-comprar :active{
+    color: rgba(226, 226, 243, 0.944);
+}
+.btn-comprar :active span{
+    color: rgba(226, 226, 243, 0.944);
+}
+
+
+.btn-comprar:hover {
+  background-color: #021f3c;
+  color: white;
+  cursor: pointer;
+}
+
+
+.btn-comprar :focus{
+    background-color: #8da8c0;
+}
+
+.carritoCompras{
+    background-color: rgba(2, 31, 60, 0.601);
+    border-radius: 20px;
+    color: white;
+    padding: 1rem;
+    border: 3px solid blueviolet;
+    width: 50%;
+    font-size: 1.15rem;
+    margin: 0 25%;
+}
+
+.btn-cantidad{
+    width: 90%;
+   
+}
+
+
+.btn-eliminar{
+    width: 90%;
+}
+
+.itemscarrito{
+    display: flex;
+    gap: 1px;
+    align-items: flex-end;
+}
+
+.itemscompleto{
+    display: flex;
+    align-items: self-end;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.lista-carrito{
+    border: 1.5px dashed rgb(58, 0, 108);
+    padding: 1rem;
+    background-color: #021f3c7b;
+    border-radius: 5px;
+}
+
+.pago{
+    display: flex;
+    justify-content:center ;
+
+    & .btn-comprar{
+        width: 50%;
+    }
+}

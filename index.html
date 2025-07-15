@@ -15,7 +15,6 @@
 
     <!-- Emojis -->
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-    
 
 
     <!-- Iconos de Font Awesome -->
@@ -41,9 +40,9 @@
                     <li id="paseos"> Paseos</li>
                 </a>
                 <li class="cta"><a href="#contactoa"> Contactate</a></li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
             </ul>
         </nav>
-        <p>Y en la pagina?</p>
     </header>
 
     <main>
@@ -59,15 +58,13 @@
         <a id="paseosa"></a>
         <section class="productos" id="prod">
             <p>Paseos <i class="em em-flag-ar" aria-role="presentation" aria-label="Argentina Flag"></i></p>
+            
             <div class="itemProductos">
-
+            <!--
                 <div class="productoimgdesc">
                     <div>
                         <img src="imagenes/productos/micheile.jpg" alt="">
                     </div>
-
-
-
                     <h3>Palermo: Tour y Vino</h3>
                     <div class="descripcion">
                         <p>Degustaciones de exquisitos vinos argentinos,4 etiquetas de vinos de alta gama a cargo
@@ -97,6 +94,7 @@
                     </div>
                     <div class="precioproducto">
                         <p>$15.000</p>
+                        <button class="btn-comprar" type="button" data-id="${producto.id}">Agregar al carrito <i class="fa-solid fa-cart-plus"></i></button>
                     </div>
                 </div>
                 <div class="productoimgdesc">
@@ -221,7 +219,15 @@
                         <p>$16.000</p>
                     </div>
                 </div>
+             -->   
             </div>
+            
+
+            <!-- Carrito de compras -->
+            <section  class="carritoCompras">
+
+            </section>
+        </section>
         </section>
 
         <section class="formas-de-pago">
@@ -443,9 +449,7 @@
         </div>
 
     </footer>
-    <input type="text" name="contac" id="contac">
-
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
